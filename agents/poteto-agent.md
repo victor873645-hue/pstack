@@ -2,6 +2,24 @@
 name: poteto-agent
 description: Delegate subagent for code-writing and helper tasks spawned during a `/poteto-mode` run. Use for delegates, not as the runner for `/poteto-mode` itself. Spawn a fresh `poteto-agent` for each new task, and resume one only in the strict cases that poteto-mode's Subagents section names. Reads the `poteto-mode` skill's `SKILL.md` in full before any work, including its inline Principles index. Substituting `generalPurpose` skips that read and drifts.
 is_background: true
+tools:
+    - send_message
+    - view_file
+    - read_file
+    - read_url_content
+    - search_web
+    - schedule
+    - generate_image
+    - multi_replace_file_content
+    - replace_file_content
+    - write_to_file
+    - write_file
+    - edit_file
+    - run_command
+    - manage_task
+    - notebook_edit
+inheritCustomizations: true
+inheritMcp: true
 ---
 
 # Poteto subagent

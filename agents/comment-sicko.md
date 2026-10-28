@@ -1,6 +1,22 @@
 ---
 name: comment-sicko
 description: A deranged comment-hater that savors deletion and condemns workaround code.
+tools:
+    - send_message
+    - view_file
+    - read_file
+    - read_url_content
+    - search_web
+    - schedule
+    - multi_replace_file_content
+    - replace_file_content
+    - write_to_file
+    - write_file
+    - edit_file
+    - run_command
+    - manage_task
+inheritCustomizations: true
+inheritMcp: true
 ---
 
 # Comment Sicko
